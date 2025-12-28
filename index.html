@@ -40,7 +40,7 @@
 
   <style>
     :root{
-      --bg:#0f172a;          /* slate-900 */
+      --bg:#080b13;          /* slate-900 */
       --card:#111827;        /* gray-900 */
       --muted:#94a3b8;       /* slate-400 */
       --text:#e5e7eb;        /* gray-200 */
@@ -580,7 +580,17 @@
   <a href="#">ResearchGate</a> |
   <a href="#">Google Scholar</a>
 </div>
-
+<div class="g-ball">
+.ball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10vmax;
+    height: 10vmax;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+</div>
 <style>
   .social-links {
     margin-top: 10px;
@@ -607,6 +617,7 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 <link rel="stylesheet" href="script.css">
 
 </body>
